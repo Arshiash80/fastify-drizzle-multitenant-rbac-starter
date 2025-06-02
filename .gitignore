@@ -1,0 +1,40 @@
+# Dependencies
+node_modules
+.pnpm-store/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Misc
+.DS_Store
+test.http
